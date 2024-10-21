@@ -1,12 +1,8 @@
 name: Generate SARIF Report
 
 on:
-  workflow_call:
-    inputs:
-      input_param:
-        required: true
-        type: string
-
+  workflow_call:  
+  
 jobs:
   codeql-scan:
     runs-on: ubuntu-latest
