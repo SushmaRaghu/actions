@@ -1,9 +1,9 @@
 name: Generate SARIF Report
 
 on:
-  workflow_call:  # This makes the workflow reusable by other repositories
+  workflow_call:
     inputs:
-        language:  python
+      input_param:
         required: true
         type: string
 
